@@ -55,7 +55,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 <center>
 I am Niveen, MERN developer and 
 
-<a href="https://niveen-abdelaatty.github.io/JS-Memory-Game/" target="_blank">You can visit my game by hitting this link</a>
+<a href="" target="_blank">You can visit my game by hitting this link</a>
 
 </center>
 
