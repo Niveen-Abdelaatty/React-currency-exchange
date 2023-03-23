@@ -29,7 +29,7 @@ function Exchangeboard(props) {
     );
   };
 
-  return currencies ? loaded() : loading();
+  return currencies && currency !== '' && amount !== '' ? loaded() : loading();
 }
 
 export default Exchangeboard;

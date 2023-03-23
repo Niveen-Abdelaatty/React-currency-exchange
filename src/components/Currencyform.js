@@ -25,6 +25,10 @@ function Currencyform(props) {
           <option value='USD'>USD - US Dollar</option>
           <option value='CAD'>CAD - Canadian Dollar</option>
           <option value='EUR'>EUR - Euro</option>
+          <option value='EUR'>AUD - Australian Dollar</option>
+          <option value='EUR'>RON - Romanian Leu</option>
+          <option value='EUR'>TRY - Turkish Lira</option>
+          <option value='EUR'>ZAR - South African Rand </option>
         </Form.Select>
         <Form.Control
           style={{ width: '18rem' }}
