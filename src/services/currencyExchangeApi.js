@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-export const exchangeCurrency = async () => {
+export const getCurrenciesApi = async () => {
   const api_key = '9Wp94U3v8PwxfcEnNJV0TgKwL4XB4EJ0WTaAFEok';
-  
+
   const url = `https://api.freecurrencyapi.com/v1/latest?apikey=${api_key}`;
 
   try {
@@ -12,3 +12,4 @@ export const exchangeCurrency = async () => {
     console.log(error);
   }
 };
+
