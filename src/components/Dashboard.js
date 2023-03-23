@@ -11,7 +11,7 @@ function Dashboard() {
   console.log(exchangeData);
 
   return (
-    <div className='dashboard'>
+    <div className='center'>
       <h1>Currency Exchange App</h1>
       <Currencyform exchangeData={exchangeData} setExchangeData={setExchangeData} />
       <Exchangeboard exchangeData={exchangeData} />

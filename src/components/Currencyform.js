@@ -13,7 +13,7 @@ function Currencyform(props) {
   console.log(exchangeData);
 
   return (
-    <Form className='Exchangeboard'>
+    <Form className='exchangeform'>
       <div>
         <Form.Select
           style={{ width: '18rem' }}

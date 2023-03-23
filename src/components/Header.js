@@ -3,8 +3,8 @@ function Header() {
     <div className='nav'>
       <h1>CURREX</h1>
       <div>
-        <h2>Home</h2>
-        <h2>About</h2>
+        <p>Home</p>
+        <p>About</p>
       </div>
     </div>
   );

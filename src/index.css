@@ -15,10 +15,10 @@ code {
 .nav {
   display: flex;
   justify-content: space-between;
-  background-color: black;
-  color: white;
+  background-color: rgb(101, 98, 85);  color: white;
   padding: 8px 50px;
-  font-size: 1em;
+  font-size: 1.25rem;
+  align-items: baseline;
 }
 
 .nav a {
@@ -30,18 +30,30 @@ code {
   display: flex;
 }
 
-.nav div > h2{
+.nav div > p{
   margin-left: 10px;
 }
 
-.dashboard {
-  height: 75vh;
-}
-
-.Exchangeboard {
+.exchangeform {
   display: flex;
 }
 
-.Exchangeboard div {
-  margin: 2rem auto;
+.exchangeform div {
+  margin: 1rem auto;
+}
+
+.footer {
+  width: 100%;
+  height: 4rem;
+  text-align: center;
+  background-color: rgb(101, 98, 85);
+  color: white;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-size: small;
 }
